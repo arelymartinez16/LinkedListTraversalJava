@@ -16,6 +16,16 @@ public class Node {
     }
   }
 
+  public static void printLinkedListRecursively(Node head) {
+    // base case 
+    if (head == null) {
+      return;
+    }
+
+    System.out.println(head.val);
+    printLinkedListRecursively(head.next);
+  }
+
   public static void main(String[] args) {
     
   }

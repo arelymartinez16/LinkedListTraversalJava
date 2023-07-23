@@ -13,5 +13,6 @@ class Main {
     // 1 -> 2 -> 3 -> 4 -> null (bc of the default value in the constructor but it's the same as nothing)
 
     Node.printLinkedList(a);
+    Node.printLinkedListRecursively(a);
   }
 }
